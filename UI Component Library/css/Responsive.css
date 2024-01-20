@@ -1,0 +1,26 @@
+.navbar{
+
+    img{
+        display: none;
+    }
+
+    .navlist{
+        margin-top: 40px;
+    }
+
+    .searchbar{
+        display: none;
+    }
+
+    .icon{
+        display: block;
+    }
+
+    flex-direction: column;
+}
+
+
+
+
+
+
