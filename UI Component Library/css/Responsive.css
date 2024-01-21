@@ -1,11 +1,15 @@
 .navbar{
 
-    img{
-        display: none;
+    .navlist{
+        margin-top: -14px;
     }
 
     .navlist{
-        margin-top: 40px;
+        display: none;
+    }
+
+    .socialmedia-link{
+        display: none;
     }
 
     .searchbar{

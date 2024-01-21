@@ -15,14 +15,14 @@
 <body>
   <!-- Navbar start  -->
   <div class="navbar">
-    <div class="nav-logo">
+    <div class="navbarlogo">
       <a href="./index.html"><img src="../images/logo.png" alt="navlogo" id="navlogo" /></a>
     </div>
 
     <div class="navlist">
       <a href="./index.html">Home</a>
       <a href="#about" ">About</a>
-      <a href="#Blog">Blog</a>
+      <a href=" #Blog">Blog</a>
       <a href="#Doocs">Docs</a>
     </div>
 
@@ -36,8 +36,12 @@
       <a href=""><i class="fa fa-twitter"></i></a>
       <a href=""><i class="fa fa-instagram"></i></a>
     </div>
-    <div class="icon" onclick="toggleNavbar()">
-      &#9776;
+    <div class="icon" id="hamburger" onclick="showSidebar()">
+      <i class="fa fa-bars"></i>
+    </div>
+
+    <div id="cross" onclick="hideSidebar()">
+      <i class="fa fa-close"></i>
     </div>
   </div>
   <!-- Navbar end  -->
