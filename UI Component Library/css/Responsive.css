@@ -23,6 +23,26 @@
     flex-direction: column;
 }
 
+/* main-section  */
+
+h1{
+    font-size: 20px;
+}
+
+p{
+    font-size: 5px;
+    margin: 0;
+}
+
+.right-side{
+    display: none;
+}
+
+/* footer  */
+#footer-para{
+  line-height: 30px;
+}
+
 
 
 
