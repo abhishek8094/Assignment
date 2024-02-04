@@ -1,5 +1,6 @@
 /* Main section  */
-.main-section {
+.main{
+  margin-top: 80px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -37,11 +38,10 @@ h2{
   height: 48px;
   font-size: 20px;
   margin: 10px 25px;
-  color: white;
   border: none;
   border-radius: 10px;
   cursor: pointer;
-  background-color: #aa045f;
+  background-color: #dca5ff;
   box-shadow: 0 9px #000000;
 }
 
@@ -67,14 +67,11 @@ h2{
   height: 450px;
   transform: rotateY(360deg);
   margin-bottom: 80px;
+  padding: 20px;
   border-radius: 50%;
 }
 
 /*  2nd Main Section  CSS Start  */
-.second-section{
-  margin-top: 40px;
-}
-
 .center-content{
   text-align: center;
 }

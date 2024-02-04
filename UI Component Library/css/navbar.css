@@ -13,6 +13,9 @@
   
   .navbar {
     display: flex;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
     justify-content: space-around;
     align-items: center;
     background-color: #aa045f;
